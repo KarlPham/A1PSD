@@ -1,12 +1,14 @@
-#include <bits/stdc++.h>
+#include<iostream>
+#include<fstream>
 using namespace std;
 int main()
 {
+    
     int distantSum = 0;
     int a,b;
     vector<int> arrLeft;
     vector<int> arrRight;
-    ifstream file("./day1Input.txt");
+    ifstream file("./inputFile/day1Input.txt");
 
     if(!file){
         cout << "File is not open successfully" << endl;
