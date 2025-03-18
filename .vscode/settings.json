@@ -59,9 +59,25 @@
   "files.associations": {
     "*.ejs": "html",
     "iostream": "cpp",
-    "iosfwd": "cpp"
+    "iosfwd": "cpp",
+    "ostream": "cpp"
   },
   "C_Cpp.errorSquiggles": "enabled",
   "debug.onTaskErrors": "showErrors",
-  "errorLens.enabled": true
+  "errorLens.enabled": true,
+  "errorLens.alignMessage": {
+
+    "start": 0,
+    "end": 0,
+    "minimumMargin": 0,
+    "padding": [
+      0,
+      0
+    ],
+    "useFixedPosition": true
+  },
+  "errorLens.enabledDiagnosticLevels": [
+    "error",
+    "warning"
+  ]
 }
