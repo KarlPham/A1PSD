@@ -40,5 +40,5 @@ int main()
         search_start = match.suffix().first; // Move iterator forward
     }
 
-    cout << totalSum << endl;
+    cout << "the results of the multiplications is: " << totalSum << endl;
 }
